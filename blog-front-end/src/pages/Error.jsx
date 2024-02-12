@@ -1,7 +1,5 @@
 import { useNavigate } from 'react-router-dom'
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Navigate } from 'react-router-dom'
 import { Button } from 'flowbite-react'
 const Error = () => {
     const navigate = useNavigate()

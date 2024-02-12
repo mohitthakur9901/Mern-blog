@@ -8,7 +8,9 @@ import userRouter from "./routes/userRoute.js";
 import authRouter from './routes/authRoute.js'
 import cors from "cors";
 import postRouter from './routes/post.route.js'
-import * as res from 'express/lib/response';
+import commentRouter from './routes/commentRoutes.js'
+
+
 
 
 mongoose.connect(process.env.MONGODB_URL).then(() => {
